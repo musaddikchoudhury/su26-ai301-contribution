@@ -3,7 +3,7 @@
 
 **Contribution Number:** 1  
 **Student:** Musaddik Choudhury 
-**Issue:**  https://github.com/MISP/MISP/issues/1179
+**Issue:**  [https://github.com/SwitchbackTech/compass/issues/1759]
 **Status:** Phase I Complete
 
 ---
@@ -12,9 +12,9 @@
 
 [1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
 
-I picked this issue because it felt clear and realistic. The problem is easy to understand since there’s a publish icon in MISP’s interface that appears upside down, and the goal is simply to make it display correctly. I liked that there wasn’t much confusion about what the final fix should look like.
+I picked this issue because it felt straightforward and I could quickly picture what was broken. When a user edits a “Someday” event in Compass, the title in the background doesn’t update in real time while the form is open. The fix is clear, make the title stay in sync with what the user is typing.
 
-As a CS student still building my open-source experience, I wanted an issue that matched my current skill level. Since I know JavaScript and have been working with frontend code, a small visual UI bug felt like a good starting point. I also liked that MISP is a real platform used by security teams, so even a small contribution would still be part of something meaningful.
+As a CS student still building my open-source experience, I wanted something that matched my current skill level. I’ve been working with React and JavaScript, so a frontend state synchronization bug felt like a realistic starting point. I also liked that Compass is actively maintained and no one else is working on the issue, so I have a clean shot at it.
 
 ## Understanding the Issue
 
