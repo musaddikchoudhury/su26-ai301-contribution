@@ -12,9 +12,11 @@
 
 [1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
 
-I picked this issue because it felt straightforward and I could quickly picture what was broken. When a user edits a “Someday” event in Compass, the title in the background doesn’t update in real time while the form is open. The fix is clear, make the title stay in sync with what the user is typing.
+I picked this issue because it was easy to understand right away. When a user edits a Someday event in Compass, the title in the sidebar should update as they type, but instead it stays the same until they save. It feels like a classic frontend state sync issue, so I can clearly picture what the fix should look like.
 
-As a CS student still building my open-source experience, I wanted something that matched my current skill level. I’ve been working with React and JavaScript, so a frontend state synchronization bug felt like a realistic starting point. I also liked that Compass is actively maintained and no one else is working on the issue, so I have a clean shot at it.
+I’m interested in it because it fits my current skill level. I’ve built React projects before, including a full-stack study app, so I have some experience with state management and controlled components. I also want to learn how Compass handles its frontend state and whether the issue comes from a controlled input problem or a missing event handler. Since the issue has no assignees, no competing PRs, and was opened recently, it feels like a good chance to contribute something meaningful.
+
+I also left a comment on the issue introducing myself and saying that I’m interested in working on it.
 
 ## Understanding the Issue
 
