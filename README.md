@@ -1,22 +1,27 @@
 # su26-ai301-contribution
-# Contribution 1: Publish icon is upside down
-
+# Contribution 1: UI Overlap and Responsive Layout Regression on Mobile Viewports (362x459)
+ 
 **Contribution Number:** 1  
-**Student:** Musaddik Choudhury 
-**Issue:**  [https://github.com/SwitchbackTech/compass/issues/1759]
+**Student:** Musaddik Choudhury  
+**Issue:** [https://github.com/betterlaspinas/betterlaspinas/issues/60]
 **Status:** Phase I Complete
-
+ 
 ---
+ 
+## Lessons Learned from Original Issue
+ 
+My original issue was [SwitchbackTech/compass #1759 — "Someday event title does not update while form is open"](https://github.com/SwitchbackTech/compass/issues/1759). Before I could begin Phase II, it was closed and fixed by another contributor.
+ 
+**What I learned:** In open source, issues can move fast. Next time I will set up my environment and signal active work sooner after claiming an issue. Per my instructor's guidance, I have updated this README with my replacement issue while keeping this as Contribution 1.
+
 
 ## Why I Chose This Issue
 
 [1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
 
-I picked this issue because it was easy to understand right away. When a user edits a Someday event in Compass, the title in the sidebar should update as they type, but instead it stays the same until they save. It feels like a classic frontend state sync issue, so I can clearly picture what the fix should look like.
+I chose issue #60 "UI Overlap and Responsive Layout Regression on Mobile Viewports (362x459)" because it's a clear, reproducible bug that fits my current skill set. I've built frontend UIs in React and Next.js for projects like FocusMind and BridgeAI, so I'm comfortable working with component layouts and CSS. The issue has a screenshot showing exactly what's broken, the affected area is just the header section, and the maintainers labeled it good first issue and help wanted — all signs that this is a well-scoped contribution I can realistically complete.
 
-I’m interested in it because it fits my current skill level. I’ve built React projects before, including a full-stack study app, so I have some experience with state management and controlled components. I also want to learn how Compass handles its frontend state and whether the issue comes from a controlled input problem or a missing event handler. Since the issue has no assignees, no competing PRs, and was opened recently, it feels like a good chance to contribute something meaningful.
-
-I also left a comment on the issue introducing myself and saying that I’m interested in working on it.
+I'm also drawn to it because of the type of project it is. I built BridgeAI to help CUNY students access city resources, so contributing to a civic-facing site that serves a local community feels meaningful to me. From reading the issue, the problem is that the emergency hotline buttons overlap with the navigation bar and logo on small mobile screens (~362×459), making the header unusable. My contribution will make the site more accessible for users on smaller devices. I left a comment on the issue introducing myself and my intent to work on it.
 
 ## Understanding the Issue
 
