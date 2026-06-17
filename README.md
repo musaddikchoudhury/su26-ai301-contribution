@@ -1,27 +1,28 @@
 # su26-ai301-contribution
-# Contribution 1: UI Overlap and Responsive Layout Regression on Mobile Viewports (362x459)
- 
+# Contribution 1: feature request: options to display only positive or negative x and y axes
+
 **Contribution Number:** 1  
 **Student:** Musaddik Choudhury  
-**Issue:** [https://github.com/betterlaspinas/betterlaspinas/issues/60]
+**Issue:** [https://github.com/Doenet/DoenetML/issues/355](https://github.com/Doenet/DoenetML/issues/355)  
 **Status:** Phase I Complete
- 
----
- 
-## Lessons Learned from Original Issue
- 
-My original issue was [SwitchbackTech/compass #1759 — "Someday event title does not update while form is open"](https://github.com/SwitchbackTech/compass/issues/1759). Before I could begin Phase II, it was closed and fixed by another contributor.
- 
-**What I learned:** In open source, issues can move fast. Next time I will set up my environment and signal active work sooner after claiming an issue. Per my instructor's guidance, I have updated this README with my replacement issue while keeping this as Contribution 1.
 
+---
+
+## Lessons Learned from Previous Issues
+
+My original issue was [SwitchbackTech/compass #1759 — "Someday event title does not update while form is open"](https://github.com/SwitchbackTech/compass/issues/1759). Before I could begin Phase II, it was closed and fixed by another contributor.
+
+I then selected [betterlaspinas/betterlaspinas #60 — "UI Overlap and Responsive Layout Regression on Mobile Viewports"](https://github.com/betterlaspinas/betterlaspinas/issues/60). After claiming it, I learned someone else had already been working on it, so I needed to select another issue.
+
+**What I learned:** In open source, issues can move fast and the "Claimed?" status isn't always obvious from comments alone. Before committing time to an issue, I now check more carefully for any indication of existing work, and I try to get direct confirmation from a maintainer that an issue is genuinely available before investing further. Per my instructor's guidance, I have updated this README with my new issue while keeping this as Contribution 1.
+
+---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose issue #355 "feature request: options to display only positive or negative x and y axes" because it is a well-scoped feature with a maintainer-provided implementation roadmap, which gave me confidence I could realistically contribute to it. I commented on the issue, and `dqnykamp`, a core maintainer, responded with specific guidance — naming the exact files involved (`Graph.js` in the core package and `graph.tsx` in the renderer), pointing me to an existing similar attribute pattern (`displayMode` and the `simplify` attribute in `Math.js`) to model my implementation after, and offering to help if I get stuck.
 
-I chose issue #60 "UI Overlap and Responsive Layout Regression on Mobile Viewports (362x459)" because it's a clear, reproducible bug that fits my current skill set. I've built frontend UIs in React and Next.js for projects like FocusMind and BridgeAI, so I'm comfortable working with component layouts and CSS. The issue has a screenshot showing exactly what's broken, the affected area is just the header section, and the maintainers labeled it good first issue and help wanted — all signs that this is a well-scoped contribution I can realistically complete.
-
-I'm also drawn to it because of the type of project it is. I built BridgeAI to help CUNY students access city resources, so contributing to a civic-facing site that serves a local community feels meaningful to me. From reading the issue, the problem is that the emergency hotline buttons overlap with the navigation bar and logo on small mobile screens (~362×459), making the header unusable. My contribution will make the site more accessible for users on smaller devices. I left a comment on the issue introducing myself and my intent to work on it.
+This matches my skills and goals well. I have experience with React-based component architecture from projects like FocusMind and BridgeAI, so I'm comfortable navigating component logic and state. DoenetML is an educational math platform built by a university team, and I'm interested in learning how a project like this separates its core logic from its rendering layer, since that's a pattern I haven't worked with directly before. The clear maintainer engagement and concrete starting point made this feel like the strongest opportunity among the issues I considered.
 
 ## Understanding the Issue
 
